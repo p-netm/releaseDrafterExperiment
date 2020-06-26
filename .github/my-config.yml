@@ -1,4 +1,20 @@
+name-template: v$NEXT_PATCH_VERSION 🌈
+tag-template: v$NEXT_PATCH_VERSION
+categories:
+  - title: 🚀 Whats New
+    label: new
+  - title: 🚨 Bug Fixes
+    label: bug
+  - title: 💉 Enhancements
+    label: enhancements
+  - title: 🚦 Refators & Tests
+    label: refacor
+change-template: - #$NUMBER: $TITLE (thanks to @$AUTHOR)
 template: |
-  ## What’s Changed
+  ## What's Changed
 
   $CHANGES
+
+  ## Thanks to
+
+  $CONTRIBUTORS
