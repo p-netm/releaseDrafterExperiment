@@ -18,6 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'echo done'
-        run: echo $CHANGE
+        run: echo $CHANGES
 
 
