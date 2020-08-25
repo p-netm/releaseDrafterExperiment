@@ -17,5 +17,7 @@ jobs:
           config-name: my-config.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'echo done'
+        run: echo $CHANGE
 
 
